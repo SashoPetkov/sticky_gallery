@@ -195,7 +195,7 @@ input::before {
   width: 100%;
 }
 .active {
-  max-height: 205px;
+  max-height: 285px;
   transition: max-height 0.3s linear;
 }
 .rotateArrow {
