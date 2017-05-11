@@ -72,6 +72,7 @@ h2:hover {
   resize: none;
   border: 2px solid grey;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 .image-details input[type="submit"] {
   display: block;
