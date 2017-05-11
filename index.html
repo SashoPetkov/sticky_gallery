@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Oswald:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>gallery</title>
+</head>
+<body>
+  <div id="wrapper">
+    <header class="main-header">
+      <img src="Camera.ico" alt="logo">
+      <h1>Gallery with sticky</h1>
+    </header>
+    <section class="internetFile">
+      <h2>Click to add image from internet <span>&rsaquo;</span></h2>
+      <form class="image-details">
+        <input type="text" placeholder="paste URL of image">
+        <textarea name="stycky" cols="30" rows="10" placeholder="write a stycky"></textarea>
+        <input type="submit" value="ADD to Gallery">
+      </form>
+    </section>
+    <section class="localFile">
+      <h2>Click to add image from local directory <span>&rsaquo;</span></h2>
+      <form class="localImage">
+        <input type="file" />
+        <button type="submit">SUBMIT</button>
+        <textarea name="" cols="0" rows="0" placeholder="write a stycky"></textarea>
+      </form>
+    </section>
+    <ul class="gallery-list">
+      
+    </ul>
+    <div class="popUp"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
